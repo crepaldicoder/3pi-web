@@ -1,41 +1,19 @@
-# 3pi-web — Sistema visual
+# 3pi-web — Rebuild 2026
 
-## Estratégia
-- Artefato: site institucional + portfólio para estúdio digital B2B.
-- Público: empresas que precisam vender, operar e ser encontradas melhor.
-- Ação primária: iniciar conversa sobre um projeto.
-- Adjetivos: preciso, inquieto, estratégico, técnico, humano.
-- Essência: precisão em movimento.
+## Direção
+- Posicionamento: estúdio de crescimento digital que une marca, produto e aquisição.
+- Personalidade: radical, preciso, inquieto, confiável.
+- Essência: **sistema orbital brutalista**.
+- Assinatura: uma linha orbital contínua, coordenadas e tipografia cinética.
 
-## Identidade
-- Direção: editorial tecnológico, escuro, alto contraste, sem estética SaaS genérica.
-- Marca: símbolo `3π` em caixa modular e wordmark minúsculo.
-- Assinatura: órbitas/pi-grid — linhas finas e pontos em rotação; divisórias numeradas.
-- Tipografia: Syne (display) + Manrope (texto), hospedadas pelo Google Fonts.
-- Escala: 1.25, base 16px.
-- Cores: fundo `oklch(13% .018 165)`, superfície `oklch(18% .02 165)`, texto `oklch(96% .015 95)`, muted `oklch(70% .02 160)`, sinal `oklch(88% .22 128)`, azul técnico `oklch(68% .16 220)`.
-- Espaçamento: unidade 8px. Raios: 0 e 14px. Sombras: nenhuma; profundidade por borda e contraste.
+## Sistema
+- Display: Archivo Black. Texto: DM Sans.
+- Fundo mineral, off-white, laranja-sinal e lima elétrica.
+- Cantos majoritariamente retos; círculos apenas como linguagem orbital.
+- Imagens editoriais geradas especificamente para o projeto.
 
 ## Movimento
-- Hero em sequência (logo → selo → headline → CTA).
-- Orbe/pi-grid acompanha o ponteiro e progride com o scroll.
-- Parallax vertical multicamada no hero, projetos e contato.
-- Barra de progresso no topo e botões magnéticos.
-- Marquee contínuo de capacidades.
-- Reveal por IntersectionObserver com stagger.
-- Cards de portfólio têm inclinação óptica no hover.
-- Somente transform e opacity; motion-reduce global.
-
-## Layout
-- Grid de 12 colunas, assimetria editorial e linhas-guia visíveis.
-- Hero ocupa a tela; serviços em índice horizontal/empilhado; projetos em mosaico desigual.
-- Mobile: 320px+, menu acessível, elementos gráficos simplificados.
-
-## Acessibilidade
-- HTML semântico, skip link, foco visível, contraste AA, alvos mínimos 44px.
-- Navegação por teclado e `aria-expanded` no menu.
-- Movimento reduzido desativa loops e transições.
-
-## Auditoria anti-slop
-- Sem gradiente roxo, glassmorphism, cards genéricos ou emojis.
-- Identidade, imagem SVG, favicon, densidade e movimento presentes.
+- Loader de entrada; hero em camadas; parallax vertical e horizontal.
+- Texto marquee, palavras cinéticas, máscaras de imagem, tilt 3D.
+- Linha orbital, cursor contextual, números e progresso de scroll.
+- Sem adaptação automática para redução de movimento, conforme solicitação do usuário.
