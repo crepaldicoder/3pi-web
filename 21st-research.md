@@ -2,6 +2,16 @@
 
 QUALITY_PREFLIGHT: PASS
 
+## Iteração Orbital Lumen - 26/08/2026
+A segunda direção mantém exatamente a mesma procedência 21st.dev. A referência externa `meu-black.vercel.app` foi analisada somente como benchmark de qualidade. Nenhum componente, asset ou trecho de código foi copiado. O novo campo WebGL implementa diretamente o padrão documentado do **Experience Hero, ID 9724**: fragment shader com uniforms de tempo e ponteiro, monólito central e interpolação suave. A navbar em cápsula continua derivada de **Navbar Section 2, ID 18120**. O contraste tipográfico editorial é uma decisão de identidade própria da 3pi, não um componente externo.
+
+Decisões desta iteração:
+- Base mineral clara e cobalto espectral para separar a identidade 3pi do benchmark.
+- WebGL nativo sem nova dependência, com shader próprio, esfera 3π e cinco órbitas.
+- Pausa por `IntersectionObserver`, redução de DPR em touch e modo estático com movimento reduzido.
+- Métricas comerciais conceituais removidas. Cases são explicitamente apresentados como conceitos.
+- `visual-v2.css` concentra a nova camada para manter rastreabilidade e facilitar auditoria.
+
 ## Escopo e método
 
 Pesquisa realizada exclusivamente no catálogo do servidor MCP 21st.dev para referências visuais, componentes, temas e templates. Foram usadas as tools `mcp__21st__search`, `mcp__21st__get_usage` e `mcp__21st__get_component`. O código real foi consultado para os dois componentes efetivamente selecionados como base estrutural: **Experience Hero** e **Services with Animated Hover Modal**. A conta disponível era free e oferecia 2/2 consultas de código no dia; ambas foram usadas. Os demais itens abaixo são referências secundárias do próprio catálogo 21st.dev, claramente marcadas como “metadata/padrão”, sem alegação de inspeção do código-fonte.
